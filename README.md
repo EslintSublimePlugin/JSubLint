@@ -61,28 +61,26 @@ Usage
 
 Functionalities of each command can be described as follow : </br>
 
-#### Basic
+### Basic
 
-  1. Run analyser on JS file </br>
+  #### 1. Run analyser on JS file </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will run eslint code analysis on current working js file and will present with results in accordance with rules described in configuration file.
                
-  
-  2. configure Rules
-          It will open a new window describing available rules with flag of each rule set to default. User can edit each               rule. User can also view the documentation on double clicking particular rule. Finish button will generate final 
-          project specific configuration file which can be imported later in the same project.
+  #### 2. configure Rules </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will open a new window describing available rules with flag of each rule set to default. User can edit each rule. User can also view the documentation on double clicking particular rule. Finish button will generate final project specific configuration file which can be imported later in the same project.
   
   
-  3. import your custom Rules file
+  #### 3. import your custom Rules file </br>
             
                 ->> click on Tools -> JSAnalyser -> Import configuration file
                 ->> select JSON file
 
-  4. Reset the configuration ( switch back to default configuration )
+  #### 4. Reset the configuration ( switch back to default configuration ) </br>
         
         
-#### Advanced        
+### Advanced        
 
-  5. Create Rule
+  #### 5. Create Rule </br>
         
                 ->> prompt asks for Rule Name and Description 
                 ->> Creates custom rule which consists of a folder which contains 4 files
@@ -91,17 +89,17 @@ Functionalities of each command can be described as follow : </br>
                     iii. json configuration file for rule (rule_nameconfig.json)
                     iv.  json metadata file for (rule_namemetadata.json)
   
-  6. Select and Test Rule
+  #### 6. Select and Test Rule </br>
         
                  ->> select Ruleconfig file from the prompt 
                  ->> Analyser runs on present file only for that rule.(recommend to run on rule_nametest.js file)
                  ->> selected Config file will be set as the default test rule configuration.
          
-  7. Test Rule
+  #### 7. Test Rule </br>
       
                  ->> No need to select the ruleConfig again for testing.
                  ->> previously selected ruleConfig file will be used for testing.
          
-  8. Import Rule
+  #### 8. Import Rule </br>
   
                  ->> Import the tested rule to global configuration as official custom rule for linting.  
