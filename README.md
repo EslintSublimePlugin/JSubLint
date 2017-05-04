@@ -76,27 +76,24 @@ Functionalities of each command can be described as follow : </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It is used to reset configuration file to default. The eslint will reflect warnings and errors on the basis of recommended default rules.         
         
 ### Advanced        
+Advanced functionality is provided to deal with custom rules. It provides environment for testing and deployment of custom rules </br>
 
   #### 5. Create Rule </br>
-        
-                ->> prompt asks for Rule Name and Description 
-                ->> Creates custom rule which consists of a folder which contains 4 files
-                    i.   rule file (rule_name.js)
-                    ii.  rule test file ( rule_nametest.js)
-                    iii. json configuration file for rule (rule_nameconfig.json)
-                    iv.  json metadata file for (rule_namemetadata.json)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It will open a new window asking for custom rule name and description. Based on appropriate information it will generate Custom Rule Template. There will be total 4 files generated along with Custom Rule.
+
+- Rule file
+- Test file
+- Rule configuration file ( This file has test rule name that needs to be applied on test file)
+- Rule metadata file (This file contains basic info. about rule)
+
+All of those files are created and are put under TEST/RULENAME/ directory.</br>
   
   #### 6. Select and Test Rule </br>
-        
-                 ->> select Ruleconfig file from the prompt 
-                 ->> Analyser runs on present file only for that rule.(recommend to run on rule_nametest.js file)
-                 ->> selected Config file will be set as the default test rule configuration.
-         
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will open a new window asking for rule to be selected and tested. After selecting specific rule, plugin will run analysis on active js file with selected custom rule configuration. 
+
   #### 7. Test Rule </br>
-      
-                 ->> No need to select the ruleConfig again for testing.
-                 ->> previously selected ruleConfig file will be used for testing.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will run analysis on active js file with earlier selected custom rule configuration.   
          
   #### 8. Import Rule </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is used for deployment of custom rule to standard set of rules in order to use it in production. It will open a new window asking for rule to be deployed. Once selected, it will copy rule from test folder to standard rule folder.
   
-                 ->> Import the tested rule to global configuration as official custom rule for linting.  
