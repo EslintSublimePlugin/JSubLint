@@ -32,7 +32,7 @@ Installation
 -------
 
 step 1. Download all the dependencies
-Execute following commands in terminal,powershell or CMD
+Execute following commands in terminal, powershell or CMD
 
 ```cmd
 -> npm install -g eslint 
@@ -48,16 +48,17 @@ step 3. copy repository to sublime package location
 Open sublime Text 
 click on preferences -> Browse packages
 copy the downloaded package to opened folder in explorer window
-
 ```
 
-->> Your plugin is installed...
+Your plugin is now installed successfully.. :)
 
-->> click on Tools in sublime Text window
 
-->> click on JSAnalyser
+Usage
+-------
 
-->> functionalities
+- click on Tools in sublime Text window
+- click on JSAnalyser
+
 
   1. Run analyser on JS file
         
