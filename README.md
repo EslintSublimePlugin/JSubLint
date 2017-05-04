@@ -25,35 +25,31 @@ Apache License, Version 2.0
 Dependencies
 -------
 Java : version >= 1.8.x <br />
-
 Node : version >= 5.x.x </br>
-
 Note : Make sure java and node is available in the path
 
-Installation process
+Installation 
 -------
 
 step 1. Download all the dependencies
+Execute following commands in terminal,powershell or CMD
 
-        open cmd or Powershell
-        
-        --> npm install -g eslint
-  
-        --> npm install -g eslint-plugin-angular
-  
-        --> npm install -g eslint-config-angular
-  
+```cmd
+-> npm install -g eslint 
+-> npm install -g eslint-plugin-angular
+-> npm install -g eslint-config-angular
+```        
 
 step 2. Download/clone the repository
 
-step 3. copy the repository to sublime package Location
+step 3. copy repository to sublime package location
 
-        ->> Open sublime Text 
+```
+Open sublime Text 
+click on preferences -> Browse packages
+copy the downloaded package to opened folder in explorer window
 
-        ->> click on preferences -> Browse packages
-
-        ->> copy the downloaded package to the opened file location from last step
-
+```
 
 ->> Your plugin is installed...
 
