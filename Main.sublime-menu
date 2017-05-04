@@ -1,0 +1,83 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "JSAnalyser",
+                "id": "lint",
+                "children":
+                [
+                    {
+                        "caption": "Run JSAnalyser",
+                        "command": "eslint"
+                    },
+
+                    {
+                        "caption": "Configure Rules",
+                        "command": "config"
+                    },
+                    {
+                        "caption": "Import configuration file",
+                        "command": "import_config"
+                    },
+                    {
+                        "caption": "Reset to global configuration ",
+                        "command": "reset_config"
+                    },
+                    {
+                        "caption": "Create Rule",
+                        "command": "create_rule"
+                    },
+                    {
+                        "caption": "Select and test Rule",
+                        "command": "import_and_test_rule"
+                    },
+                    {
+                        "caption": "Test Rule",
+                        "command": "test_rule"
+                    },
+                    {
+                        "caption": "Import Rule",
+                        "command": "import_rule"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "ESLint",
+                        "children":
+                        [
+                            {
+                                "caption": "Settings – Default",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/sublime-eslint/sublime-eslint.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/User/sublime-eslint.sublime-settings"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

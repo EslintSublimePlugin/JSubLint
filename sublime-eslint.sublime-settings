@@ -1,0 +1,22 @@
+{
+    //Uses system installed eslint.js (node.js based)
+    "use_node_eslint": true,
+
+
+    //Options passed to eslint.js
+    "node_eslint_options": "",
+
+
+
+    //Errors and RegEx to be ignored
+    "ignore_errors":
+    [
+        //"Expected an identifier and instead saw 'undefined' \(a reserved word\)"
+    ],
+
+    //Run ESLint on save.
+    "run_on_save": true,
+
+    //Debug flag.
+    "debug": false
+}
