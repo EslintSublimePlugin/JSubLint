@@ -45,9 +45,9 @@ step 2. Download/clone the repository
 step 3. copy repository to sublime package location
 
 ```
-Open sublime Text 
-click on preferences -> Browse packages
-copy the downloaded package to opened folder in explorer window
+- Open sublime Text 
+- click on preferences -> Browse packages
+- copy the downloaded package to opened folder in explorer window
 ```
 
 Your plugin is now installed successfully.. :)
@@ -59,16 +59,18 @@ Usage
 - click on Tools in sublime Text window
 - click on JSAnalyser
 
+Functionalities of each command can be described as follow :
+
+#### Basic
 
   1. Run analyser on JS file
-        
-              ->> Analyser runs on save event ("control+s" and "control+j") 
+          It will run eslint code analysis on current working js file and will present with results in accordance
+          with rules described in configuration file.
+               
   
   2. configure Rules
-  
-                ->> click on Tools -> JSAnalyser -> Configure Rules
-                ->> select the rules and its configuration (Error,Warning,Off)
-                ->> Click on finish and save the Configuration as JSON file.
+          It will open a new window describing available rules with flag of each rule set to default. User can edit each               rule. User can also view the documentation on double clicking particular rule. Finish button will generate final 
+          project specific configuration file which can be imported later in the same project.
   
   
   3. import your custom Rules file
@@ -78,6 +80,9 @@ Usage
 
   4. Reset the configuration ( switch back to default configuration )
         
+        
+#### Advanced        
+
   5. Create Rule
         
                 ->> prompt asks for Rule Name and Description 
