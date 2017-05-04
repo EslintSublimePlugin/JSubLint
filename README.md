@@ -1,5 +1,20 @@
-#JSubLint
-it is a sublime plugin for JavaScript code analysis
+Javascript Sublime Linter
+====================================
+
+It is a sublime plugin for eslint and used for Javascript code analysis. It allows developers to discover problems with their JavaScript code without executing it. It also presents with user friendly interface which makes it developer easy to find errors and correct them.</br>
+Features provided by this sublime plugin 
+
+#### Basic
+- Realtime Js Linting ( Linting is performed after save event on js file )
+- Functionality to create project based configuration file
+- Importing configuration file
+- Reset configuration to default (It use default global configuration file for linting)
+
+
+#### Advanced
+- Creating custom rules
+- Environment for testing of custom rules
+- Importing custom rules into production or standard rules
 
 
 Installation process
