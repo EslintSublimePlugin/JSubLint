@@ -17,7 +17,21 @@ Features provided by this sublime plugin
 - Importing custom rules into production or standard rules
 
 
+License
+-------
+Apache License, Version 2.0
+
+
+Dependencies
+-------
+Java : version >= 1.8.x <br />
+
+Node : version >= 5.x.x </br>
+
+Note : Make sure java and node is available in the path
+
 Installation process
+-------
 
 step 1. Download all the dependencies
 
