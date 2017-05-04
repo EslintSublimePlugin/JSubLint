@@ -59,13 +59,12 @@ Usage
 - click on Tools in sublime Text window
 - click on JSAnalyser
 
-Functionalities of each command can be described as follow :
+Functionalities of each command can be described as follow : </br>
 
 #### Basic
 
-  1. Run analyser on JS file
-          It will run eslint code analysis on current working js file and will present with results in accordance
-          with rules described in configuration file.
+  1. Run analyser on JS file </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will run eslint code analysis on current working js file and will present with results in accordance with rules described in configuration file.
                
   
   2. configure Rules
