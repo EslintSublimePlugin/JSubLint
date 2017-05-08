@@ -76,7 +76,7 @@ Basic functionality is given to deal with iterative tasks of dealing with js cod
   #### 4. Reset the configuration ( switch back to default configuration ) </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It is used to reset configuration file to default. The eslint will reflect warnings and errors on the basis of recommended default rules.         
         
-### * Advanced 
+### Advanced 
 Advanced functionality is provided to deal with custom rules. It provides environment for testing and deployment of custom rules </br>
 
   #### 5. Create Rule </br>
