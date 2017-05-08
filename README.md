@@ -61,7 +61,7 @@ Usage
 
 Functionalities of each command can be described as follow : </br>
 
-### * Basic 
+### Basic 
 Basic functionality is given to deal with iterative tasks of dealing with js code analysis. It will cover all aspects of Javascript linting.
 
   #### 1. Run analyser on JS file </br>
