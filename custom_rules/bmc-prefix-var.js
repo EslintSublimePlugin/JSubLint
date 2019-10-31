@@ -9,6 +9,16 @@ module.exports = {
             category: "Possible Errors",
             recommended: true
         },
+        ending: {
+            description: "disallow statements ending without semi-colon",
+            category: "Possible Errors",
+            recommended: true
+        },
+        macros: {
+            description: "allow writing arrow functions inside JSX",
+            category: "Possible Warnings",
+            recommended: true
+        },
         schema: [ ]
     },
 
@@ -38,4 +48,3 @@ module.exports = {
         }
     }
 }
- 
