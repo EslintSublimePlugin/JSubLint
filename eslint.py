@@ -378,3 +378,16 @@ class ImportRuleCommand(sublime_plugin.WindowCommand):
                     global_json_file.write(json.dumps(rule_data, indent=2))
         else:
             print("Double data found")
+
+
+def convert_to_snake_case(str):
+    lowercase = [str[0].lower()]
+    for c in str[1:]:
+        if c in (str):
+            lowercase.append('_')
+            lowercase.append(c.lower())
+        else:
+            lowercase.append(c)
+
+    return ''.join(lowercase)
+
